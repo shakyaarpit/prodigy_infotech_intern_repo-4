@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a  className="title">
+      <NavLink to="/" className="title">
         <h1>🆃🆄🆃🅾🆁</h1>
-      </a>
+      </NavLink>
 
      
 

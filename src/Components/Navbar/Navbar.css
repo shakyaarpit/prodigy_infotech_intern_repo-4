@@ -36,11 +36,7 @@ ul{
     font-weight: 600;
     cursor: pointer;
 }
-.active{
-    
-    color: red;
-    border-bottom: 1.5px solid red;
-}
+
 .btn:hover{
     scale: 1.02;
 }
@@ -72,6 +68,7 @@ ul{
       
     }
      ul {
+        height: 100vh;
       display: none;
       padding: 50px 0px;
       width: 100%;
@@ -79,7 +76,7 @@ ul{
       flex-direction: column;
     }
      ul li {
-      margin: 50px;
+      margin: 55px;
     }
      ul.active {
       display: block;
